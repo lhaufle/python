@@ -31,7 +31,6 @@ sheet = workbook.active
 
 #create a header
 sheet["A1"] = "Units Sold"
-a1 = sheet["A1"]
 
 #add values below the header
 count = 2 #count starts at 2 becuase values must be below the header in record A1
