@@ -6,7 +6,7 @@ doc_name = input('Please enter the name of the document:')
 
 try:
     #open work document to read
-    doc = docx.Document("C:/Users/lhaufle/Desktop/python-office-test/" + doc_name)
+    doc = docx.Document("add your directory/" + doc_name)
 except docx.opc.exceptions.PackageNotFoundError:
     print("The File could not be found, please check directory and run again!")
 
@@ -48,7 +48,7 @@ for val in values:
 sheet["A" + str(count)] = total_value
 
 #save the worksheet with values
-workbook.save(filename="C:/Users/lhaufle/Desktop/python-office-test/python.xlsx")
+workbook.save(filename="add directory and file name")
 
 #confirm job complete
 print("Export Complete")
